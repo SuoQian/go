@@ -46,8 +46,8 @@
    import "os"
    import "io"
    import "time"
-   ```
-   一般情况下将以上代码简写为下面的形式  
+   ```  
+   一般情况下将以上代码简写为下面的形式  
    ```
    import (
       "fmt"
