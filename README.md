@@ -40,6 +40,22 @@
 
 1. `package main` 必须作为任一go程序可执行代码的第一行
 
+2. 
+   ```
+   import "fmt"
+   import "os"
+   import "io"
+   import "time"
+   ```
+   一般情况下将以上代码简写为下面的形式  
+   ```
+   import (
+      "fmt"
+      "os"
+      "io"
+      "time"
+   )
+   
 
 
 
