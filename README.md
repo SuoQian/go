@@ -197,7 +197,10 @@ b := int(a)
 //下面的转换无法通过编译  
 var c bool = true  
 d := int(c)
-```
+```  
+2. 从严格意义上讲, type newint int, 这里的newint并不能说是int的别名, 而只是底层数据结构相同  
+在这里称为自定义类型, 在进行类型转换时仍旧需要显式转换, 但是byte和rune确实是uint8和int32的别名  
+可以相互进行转换.
 
 
 
