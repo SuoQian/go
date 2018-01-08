@@ -135,7 +135,7 @@
     
 9. 复数: complex64/complex128  
     长度: 8/16字节  
-    
+
 10. 足够保存指针的32位或64位整数型: uintptr  
 
 11. 其他值类型: array, struct, string  
