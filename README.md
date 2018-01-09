@@ -8,7 +8,7 @@
 [go变量的类型转换](#go变量的类型转换)  
 [go常量的声明定义](#go常量的声明定义)  
 [go控制语句](#go控制语句)  
-[go数组array](#go数组array)  
+[go数组array](#go数组array)  
 [go切片slice](#go切片slice)  
 
 
