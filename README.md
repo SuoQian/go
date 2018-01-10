@@ -12,7 +12,7 @@
 [go切片slice](#go切片slice)  
 [go的map类型](#go的map类型)  
 [go的函数](#go的函数)  
-[go的结构struct](#gi的结构struct)  
+[go的结构struct](#go的结构struct)  
 
 
 
