@@ -15,7 +15,9 @@
 [go的函数](#go的函数)  
 [go的结构struct](#go的结构struct)  
 [go的方法method](#go的方法method)  
-[go的接口interface](#go的接口interface)  
+[go的接口interface](#go的接口interface)  
+[go的反射reflection](#go的反射reflection)  
+
 
 
 
@@ -320,6 +322,14 @@ panic可以在任何地方引发, 但recover只有在defer调用的函数中有�
 8. 接口同样支持匿名字段方法  
 9. 接口也可以实现类似OOP中的多态  
 10. 空接口可以作为任何类型数据的容器  
+
+### go的反射reflection  
+
+1. 反射可以大大提高程序的灵活性, 使得interface{}有更大的发挥余地  
+2. 反射使用TypeOf和ValueOf函数从接口中获取目标对象信息  
+3. 反射会将匿名字段作为独立字段  
+4. 想要利用反射修改对象状态, 前提是interface.data是settable, 即point-interface  
+5. 通过反射可以动态调用方法  
 
 
 
