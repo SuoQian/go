@@ -15,7 +15,7 @@
 [go的函数](#go的函数)  
 [go的结构struct](#go的结构struct)  
 [go的方法method](#go的方法method)  
-[go的接口interface](#go的接口interface)  
+[go的接口interface](#go的接口interface)  
 [go的反射reflection](#go的反射reflection)  
 
 
