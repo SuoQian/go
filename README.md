@@ -16,7 +16,9 @@
 [go的结构struct](#go的结构struct)  
 [go的方法method](#go的方法method)  
 [go的接口interface](#go的接口interface)  
-[go的反射reflection](#go的反射reflection)  
+[go的反射reflection](#go的反射reflection)  
+[go的并发concurrency](#go的并发concurrency)  
+
 
 
 
@@ -330,6 +332,14 @@ panic可以在任何地方引发, 但recover只有在defer调用的函数中有�
 3. 反射会将匿名字段作为独立字段  
 4. 想要利用反射修改对象状态, 前提是interface.data是settable, 即point-interface  
 5. 通过反射可以动态调用方法  
+
+### go的并发concurrency  
+
+1. goroutine只是有官方实现的超级线程池, 每个实例4-5KB的栈内存占用和由于实现机制而大幅减少的创建和销毁开销, 是制造  
+号称的高并发的根本原因, 另外, goroutine简单易用, 也在语言层面上给与了开发者巨大的便利  
+2. 并发不是并行, 并发主要有时间片轮询来实现所谓的同时执行, 并行则是直接利用多核实现多线程的运行, Go可以设置使用核数  
+以发挥多核计算机的能力.  
+3. goroutine奉行通过通信来共享内存, 而不是共享内存来通信.  
 
 
 
